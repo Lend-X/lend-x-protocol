@@ -1,6 +1,5 @@
 pragma solidity ^0.4.18;
 
-
 /**
  * @title SafeMath - OpenZeppelin
  * @dev Math operations with safety checks that throw on error
@@ -45,4 +44,5 @@ library SafeMath {
     assert(c >= a);
     return c;
   }
+  
 }
