@@ -2,8 +2,6 @@
 
 ## Contract Architecture
 
-The Lend-X Protocol provides a high degree of decoupling of Business Logic, Storage, and Access Control layers. Additional layers of abstraction are introduced to isolate specialized logic and storage which allows the protocol usage in a modular fashion in that non-core functionality can be easily removed or extended without impact to core functionality. This flexibility also provides a certain level of frictionless upgradeability to core contracts while preserving state and keeping redeployment gas costs to a minimum.
-
 The Lend-X protocol is designed with considerable influence from the concepts used by the following projects and articles:
  
 [OpenZeppelin & Aragon - Proxy Libraries in Solidity](https://blog.zeppelin.solutions/proxy-libraries-in-solidity-79fbe4b970fd)  
